@@ -1,7 +1,7 @@
 
 class RLSockWriter
 
-  def initialize()
+  def initialize
     @max_wait_time = 60
     @bytes_per_sec = 8192
     @data = nil

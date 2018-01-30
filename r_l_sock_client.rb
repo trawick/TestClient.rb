@@ -56,7 +56,7 @@ class RLSockClient
         begin
           sock = TCPSocket.open(@uri.host, @uri.port)
         rescue => ex
-          if ex.class == Errno::ECONNREFUSED then
+          if ex.class == Errno::ECONNREFUSED
             STDERR.puts "sleeping before trying again\n"
             sleep(5)
           else

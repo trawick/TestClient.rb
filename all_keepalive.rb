@@ -20,4 +20,4 @@ while concurrency > 0
   concurrency -= 1
 end
 
-TestClientUtil.join_all()
+TestClientUtil.join_all

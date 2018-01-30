@@ -3,7 +3,7 @@
 
 class RLSockReader
 
-  def initialize()
+  def initialize
     @bytes_per_sec = 8192
     @max_wait_time = 10
     @noisy = 0

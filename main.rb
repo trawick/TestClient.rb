@@ -60,4 +60,4 @@ end
 client = RLSockClient.new(uri, write_rate, read_rate, read_wait_time, sleep_after_connect)
 client.execute(nil)
 
-TestClientUtil.join_all()
+TestClientUtil.join_all
